@@ -1,39 +1,39 @@
-import { fileURLToPath, URL } from 'node:url';
+import { fileURLToPath, URL } from "node:url";
 
-import { defineConfig } from 'vite';
-import vue from '@vitejs/plugin-vue';
+import { defineConfig } from "vite";
+import vue from "@vitejs/plugin-vue";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-    plugins: [vue()],
-    resolve: {
-        alias: {
-            '@': fileURLToPath(new URL('./src', import.meta.url)),
-        },
+  plugins: [vue()],
+  resolve: {
+    alias: {
+      "@": fileURLToPath(new URL("./src", import.meta.url)),
     },
-    server: {
-        port: 3001,
-        proxy: {
-            '/products': {
-                target: 'http://localhost:3000/',
-                changeOrigin: true,
-            },
-            '/categorys': {
-                target: 'http://localhost:3000/',
-                changeOrigin: true,
-            },
-            '/carts': {
-                target: 'http://localhost:3000/',
-                changeOrigin: true,
-            },
-            '/orders': {
-                target: 'http://localhost:3000/',
-                changeOrigin: true,
-            },
-            '/users': {
-                target: 'http://localhost:3000/',
-                changeOrigin: true,
-            },
-        },
+  },
+  server: {
+    port: 3001,
+    proxy: {
+      "/products": {
+        target: "https://mevn-nikeshoes-api.vercel.app/",
+        changeOrigin: true,
+      },
+      "/categorys": {
+        target: "https://mevn-nikeshoes-api.vercel.app/",
+        changeOrigin: true,
+      },
+      "/carts": {
+        target: "https://mevn-nikeshoes-api.vercel.app/",
+        changeOrigin: true,
+      },
+      "/orders": {
+        target: "https://mevn-nikeshoes-api.vercel.app/",
+        changeOrigin: true,
+      },
+      "/users": {
+        target: "https://mevn-nikeshoes-api.vercel.app/",
+        changeOrigin: true,
+      },
     },
+  },
 });
