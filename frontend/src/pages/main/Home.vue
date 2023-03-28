@@ -61,6 +61,7 @@ export default {
         const productWomen = (
           await ProductService.filter({ type: "women", limit: 4 })
         ).data;
+        
 
         this.products[1].data = (
           await ProductService.filter({
@@ -68,6 +69,7 @@ export default {
             limit: 8,
           })
         ).data;
+        console.log(productMen, productWomen);
         this.products[0].data = [...productMen, ...productWomen];
       } catch (error) {
         console.log(error);
