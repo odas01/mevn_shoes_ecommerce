@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/products/:path(.*)",
-      "destination": "https://mevn-nikeshoes-api.vercel.app/categorys/:path"
+      "destination": "https://mevn-nikeshoes-api.vercel.app/:path"
     },
     { "source": "/(.*)", "destination": "/" }
   ]
