@@ -11,8 +11,8 @@ export default {
         ShoppingCartOutlined,
     },
     mounted() {
-        console.log(this.data);
-  },
+        console.log(123);
+    },
 };
 </script>
 
