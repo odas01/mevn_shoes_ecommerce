@@ -1,3 +1,9 @@
 {
-  "rewrites": [{ "source": "/(.*)", "destination": "/" }]
+  "rewrites": [
+    {
+      "source": "/products/:path(.*)",
+      "destination": "https://mevn-nikeshoes-api.vercel.app/categorys/:path"
+    },
+    { "source": "/(.*)", "destination": "/" }
+  ]
 }
