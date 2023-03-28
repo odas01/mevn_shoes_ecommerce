@@ -10,6 +10,9 @@ export default {
         SearchOutlined,
         ShoppingCartOutlined,
     },
+    mounted() {
+        console.log(this.data);
+  },
 };
 </script>
 
