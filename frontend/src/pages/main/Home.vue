@@ -41,12 +41,12 @@ export default {
       products: [
         {
           title: ["men", "women"],
-          banner: "../../assets/image/banner/banner7.jpg",
+          banner: "/assets/image/banner/banner7.jpg",
           data: [],
         },
         {
           title: ["kid"],
-          banner: "../../assets/image/banner/banner8.jpg",
+          banner: "/assets/image/banner/banner8.jpg",
           data: [],
         },
       ],
