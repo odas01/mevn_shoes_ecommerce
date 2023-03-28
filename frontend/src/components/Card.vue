@@ -5,6 +5,7 @@ export default {
     data: {
       type: Object,
     },
+<<<<<<< HEAD
   },
   components: {
     SearchOutlined,
@@ -13,6 +14,11 @@ export default {
   mounted() {
     console.log(this.data);
   },
+=======
+    mounted() {
+        console.log(this.data);
+    },
+>>>>>>> 332170bf1aea5550530bc581bad8ab5f844b1a70
 };
 </script>
 

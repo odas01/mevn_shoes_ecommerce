@@ -2,23 +2,7 @@
   "rewrites": [
     {
       "source": "/products/:path(.*)",
-      "destination": "https://mevn-nikeshoes-api.vercel.app/:path"
-    },
-    {
-      "source": "/categorys/:path(.*)",
-      "destination": "https://mevn-nikeshoes-api.vercel.app/:path"
-    },
-    {
-      "source": "/carts/:path(.*)",
-      "destination": "https://mevn-nikeshoes-api.vercel.app/:path"
-    },
-    {
-      "source": "/orders/:path(.*)",
-      "destination": "https://mevn-nikeshoes-api.vercel.app/:path"
-    },
-    {
-      "source": "/users/:path(.*)",
-      "destination": "https://mevn-nikeshoes-api.vercel.app/:path"
+      "destination": "https://mevn-nikeshoes-api.vercel.app/categorys/:path"
     },
     { "source": "/(.*)", "destination": "/" }
   ]

@@ -57,18 +57,23 @@ export default {
       try {
         const productMen = (
           await ProductService.filter({ type: "men", limit: 4 })
-        ).data;
+        );
         const productWomen = (
           await ProductService.filter({ type: "women", limit: 4 })
-        ).data;
+        );
+        
 
         this.products[1].data = (
           await ProductService.filter({
             type: "kid",
             limit: 8,
           })
+<<<<<<< HEAD
         ).data;
 
+=======
+        );
+>>>>>>> 332170bf1aea5550530bc581bad8ab5f844b1a70
         this.products[0].data = [...productMen, ...productWomen];
       } catch (error) {
         console.log(error);
