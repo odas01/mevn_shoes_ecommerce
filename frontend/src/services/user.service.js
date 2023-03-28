@@ -1,6 +1,6 @@
 import createApiClient from "./api.service";
 class UserService {
-  constructor(baseUrl = "https://mevn-nikeshoes-api.vercel.app/users") {
+  constructor(baseUrl = "/users") {
     this.api = createApiClient(baseUrl);
   }
 
