@@ -20,7 +20,6 @@ const app = express();
 app.use(cors());
 app.use(express.json({ limit: "70mb" }));
 app.use(express.urlencoded({ limit: "70mb", extended: true }));
-
 // routes
 app.use("/products", productRouter);
 app.use("/categorys", categoryRouter);
@@ -45,7 +44,9 @@ app.use((err, req, res, next) => {
   });
 });
 
-app.listen(3000, () => {
-  console.log("Server is running on port " + 3000);
+const port = config.app.port || 5000;
+
+app.listen(port, () => {
+  console.log("Server is running on port " + port);
 });
 export default app;
