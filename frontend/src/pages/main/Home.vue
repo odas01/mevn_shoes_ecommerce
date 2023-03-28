@@ -68,6 +68,7 @@ export default {
             limit: 8,
           })
         ).data;
+
         this.products[0].data = [...productMen, ...productWomen];
       } catch (error) {
         console.log(error);
