@@ -4,6 +4,22 @@
       "source": "/products/:path(.*)",
       "destination": "https://mevn-nikeshoes-api.vercel.app/categorys/:path"
     },
+    {
+      "source": "/categorys/:path(.*)",
+      "destination": "https://mevn-nikeshoes-api.vercel.app/categorys/:path"
+    },
+    {
+      "source": "/carts/:path(.*)",
+      "destination": "https://mevn-nikeshoes-api.vercel.app/categorys/:path"
+    },
+    {
+      "source": "/orders/:path(.*)",
+      "destination": "https://mevn-nikeshoes-api.vercel.app/categorys/:path"
+    },
+    {
+      "source": "/users/:path(.*)",
+      "destination": "https://mevn-nikeshoes-api.vercel.app/categorys/:path"
+    },
     { "source": "/(.*)", "destination": "/" }
   ]
 }
