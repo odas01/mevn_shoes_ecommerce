@@ -5,6 +5,8 @@ import { Row, Col } from "ant-design-vue";
 import { Swiper, SwiperSlide } from "swiper/vue";
 import { Pagination } from "swiper";
 import ProductService from "@/services/product.service";
+import banner7 from "@/assets/image/banner/banner7.jpg";
+import banner8 from "@/assets/image/banner/banner8.jpg";
 
 // Import Swiper styles
 import "swiper/css";
@@ -41,12 +43,12 @@ export default {
       products: [
         {
           title: ["men", "women"],
-          banner: "/src/assets/image/banner/banner7.jpg",
+          banner: banner7,
           data: [],
         },
         {
           title: ["kid"],
-          banner: "/src/assets/image/banner/banner8.jpg",
+          banner: banner8,
           data: [],
         },
       ],

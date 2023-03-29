@@ -1,9 +1,13 @@
 <script>
 import { Carousel } from "bootstrap";
+import banner1 from "@/assets/image/banner/banner1.jpg";
+import banner2 from "@/assets/image/banner/banner2.jpg";
+import banner3 from "@/assets/image/banner/banner3.jpg";
+import banner4 from "@/assets/image/banner/banner4.jpg";
 export default {
   data() {
     return {
-      banners: ["banner1.jpg", "banner2.jpg", "banner3.jpg", "banner4.jpg"],
+      banners: [banner1, banner2, banner3, banner4],
     };
   },
   mounted() {
@@ -29,7 +33,7 @@ export default {
         <img
           class="d-block w-100"
           v-bind="index"
-          :src="`src/assets/image/banner/${banner}`"
+          :src="banner"
           :alt="`Slide ${index + 1}`"
         />
       </div>
