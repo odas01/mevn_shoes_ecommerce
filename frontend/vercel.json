@@ -1,11 +1,7 @@
 {
   "rewrites": [
     {
-<<<<<<< HEAD
       "source": "/products/:path(.*)",
-=======
-      "source": "/categorys/:path(.*)",
->>>>>>> 4828ea2e7d3bdd823aa3328f5b33e736b6e45dd8
       "destination": "https://mevn-nikeshoes-api.vercel.app/:path"
     },
     { "source": "/(.*)", "destination": "/" }
