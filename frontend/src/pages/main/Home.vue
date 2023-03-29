@@ -96,8 +96,8 @@ export default {
         :modules="modules"
         class="mySwiper"
       >
-        <swiper-slide v-for="(item, index) in products[0].data">
-          <Card :data="item" :key="index" />
+        <swiper-slide v-for="(item, index) in products[0].data" :key="index">
+          <Card :data="item" />
         </swiper-slide>
       </swiper>
     </div>
@@ -111,7 +111,11 @@ export default {
     </div>
   </div>
 
-  <div class="list__card mt-4" v-for="product in products">
+  <div
+    class="list__card mt-4"
+    v-for="(product, index) in products"
+    :key="index"
+  >
     <div class="list__card-title mb-3">
       <router-link
         v-for="title in product.title"
@@ -123,7 +127,7 @@ export default {
         Shop {{ title }}'s
       </router-link>
     </div>
-    <img src="../../assets/image/banner/banner8.jpg" alt="" />
+    <img :src="product.banner" alt="" />
     <Row
       :gutter="[
         { xs: 8, xl: 16 },

@@ -46,8 +46,7 @@ export const signIn = async (req, res, next) => {
     // set token
     const token = encodedToken(user._id);
     //token được gửi vào Header
-    res.setHeader("Authoriztion", token);
-    return res.status(200).json({ message: "Login successfully." });
+    return res.status(200).json({ message: "Login successfully.", token });
   });
 };
 export const signUp = async (req, res, next) => {

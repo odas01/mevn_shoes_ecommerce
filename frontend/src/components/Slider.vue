@@ -24,6 +24,7 @@ export default {
         class="carousel-item"
         v-for="(banner, index) in banners"
         :class="{ active: index === 0 }"
+        :key="index"
       >
         <img
           class="d-block w-100"
