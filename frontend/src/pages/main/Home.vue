@@ -41,12 +41,12 @@ export default {
       products: [
         {
           title: ["men", "women"],
-          banner: "src/assets/image/banner/banner7.jpg",
+          banner: "banner7.jpg",
           data: [],
         },
         {
           title: ["kid"],
-          banner: "src/assets/image/banner/banner8.jpg",
+          banner: "banner8.jpg",
           data: [],
         },
       ],
@@ -123,7 +123,7 @@ export default {
         Shop {{ title }}'s
       </router-link>
     </div>
-    <img :src="product.banner" alt="" />
+    <img :src="'src/assets/image/banner/' + product.banner" alt="" />
     <Row
       :gutter="[
         { xs: 8, xl: 16 },
