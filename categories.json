@@ -1,0 +1,166 @@
+[{
+  "_id": {
+    "$oid": "63a1a56a873065b2f31d516f"
+  },
+  "name": "lifestyle",
+  "genders": [
+    "men",
+    "women",
+    "boys",
+    "girls"
+  ],
+  "createdAt": {
+    "$date": "2022-12-20T12:07:06.740Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-13T05:24:27.404Z"
+  },
+  "slug": "lifestyle",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63a1a57b873065b2f31d5172"
+  },
+  "name": "running",
+  "genders": [
+    "men",
+    "women",
+    "boys",
+    "girls"
+  ],
+  "createdAt": {
+    "$date": "2022-12-20T12:07:23.708Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-13T05:24:37.158Z"
+  },
+  "slug": "running",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63a1a5c2fabc469d7b441d8c"
+  },
+  "name": "basketball",
+  "genders": [
+    "men",
+    "women",
+    "boys",
+    "girls"
+  ],
+  "createdAt": {
+    "$date": "2022-12-20T12:08:34.951Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-13T05:24:43.276Z"
+  },
+  "slug": "basketball",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63a1a5cdfabc469d7b441d8f"
+  },
+  "name": "gym and training",
+  "genders": [
+    "men",
+    "women"
+  ],
+  "createdAt": {
+    "$date": "2022-12-20T12:08:45.351Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-14T18:35:25.557Z"
+  },
+  "slug": "gym-trainning",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63a1a5d5fabc469d7b441d92"
+  },
+  "name": "jordan",
+  "genders": [
+    "men",
+    "women",
+    "boys",
+    "girls"
+  ],
+  "createdAt": {
+    "$date": "2022-12-20T12:08:53.491Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-13T05:24:53.091Z"
+  },
+  "slug": "jordan",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63a1a5e6fabc469d7b441d95"
+  },
+  "name": "football",
+  "genders": [
+    "men",
+    "women",
+    "boys",
+    "girls"
+  ],
+  "createdAt": {
+    "$date": "2022-12-20T12:09:10.357Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-13T05:24:57.710Z"
+  },
+  "slug": "football",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63a1a5f1fabc469d7b441d98"
+  },
+  "name": "tennis",
+  "genders": [
+    "men",
+    "women"
+  ],
+  "createdAt": {
+    "$date": "2022-12-20T12:09:21.541Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-13T05:25:06.843Z"
+  },
+  "slug": "tenis",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63a1a63efabc469d7b441d9c"
+  },
+  "name": "skateboarding",
+  "genders": [
+    "men",
+    "women"
+  ],
+  "createdAt": {
+    "$date": "2022-12-20T12:10:38.425Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-13T05:25:09.533Z"
+  },
+  "slug": "skateboarding",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63a1a799fabc469d7b441d9f"
+  },
+  "name": "sandal",
+  "genders": [
+    "men",
+    "women",
+    "boys",
+    "girls"
+  ],
+  "createdAt": {
+    "$date": "2022-12-20T12:16:25.411Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-13T05:25:37.760Z"
+  },
+  "slug": "sandal",
+  "__v": 0
+}]

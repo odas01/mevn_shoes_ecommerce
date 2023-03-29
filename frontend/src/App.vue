@@ -5,6 +5,5 @@ import "./App.scss";
 </script>
 
 <template>
-    <router-view/>
+  <router-view />
 </template>
-
