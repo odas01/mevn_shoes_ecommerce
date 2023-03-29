@@ -123,7 +123,7 @@ export default {
         Shop {{ title }}'s
       </router-link>
     </div>
-    <img :src="product.banner" alt="" />
+    <img src="../../assets/image/banner/banner8.jpg" alt="" />
     <Row
       :gutter="[
         { xs: 8, xl: 16 },
