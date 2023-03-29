@@ -14,10 +14,6 @@ export default defineConfig({
   server: {
     port: 3001,
     proxy: {
-      "/products": {
-        target: "https://mevn-nikeshoes-api.vercel.app/",
-        changeOrigin: true,
-      },
       "/categorys": {
         target: "https://mevn-nikeshoes-api.vercel.app/",
         changeOrigin: true,
